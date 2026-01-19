@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "fecha_analisis": "2026-01-15",
+    "num_registros": 1081,
+    "periodo_temporal": [
+      "19-20",
+      "20-21",
+      "21-22",
+      "22-23"
+    ]
+  },
+  "estadisticas_globales": {
+    "abandono_medio": 0.09568344419121505,
+    "rendimiento_medio": 0.880743744122325,
+    "correlacion_abandono_rendimiento": {
+      "pearson_corr": -0.44092345481896333,
+      "p_value": 1.2213479092437155e-52
+    }
+  },
+  "analisis_por_rama": {
+    "Arts i humanitats": {
+      "estadisticas": {
+        "abandono_media": 0.13856621323254148,
+        "abandono_std": 0.12333012462509825,
+        "rendimiento_media": 0.8505415110589107,
+        "rendimiento_std": 0.10238036683343346
+      },
+      "tendencia_abandono": {
+        "pendiente": 0.0018219919699571693,
+        "clasificacion": "estable",
+        "r_value": 0.1162432572719555,
+        "p_value": 0.8837567427280445,
+        "std_err": 0.011008026953367559,
+        "periodo": [
+          "19-20",
+          "20-21",
+          "21-22",
+          "22-23"
+        ]
+      }
+    },
+    "Ciències": {
+      "estadisticas": {
+        "abandono_media": 0.07155608322047925,
+        "abandono_std": 0.07031153722323953,
+        "rendimiento_media": 0.8961165776870353,
+        "rendimiento_std": 0.0826545805802279
+      },
+      "tendencia_abandono": {
+        "pendiente": 0.0034121469003417226,
+        "clasificacion": "estable",
+        "r_value": 0.29231755174430957,
+        "p_value": 0.7076824482556905,
+        "std_err": 0.007893355507419417,
+        "periodo": [
+          "19-20",
+          "20-21",
+          "21-22",
+          "22-23"
+        ]
+      }
+    },
+    "Ciències de la salut": {
+      "estadisticas": {
+        "abandono_media": 0.07492842115276725,
+        "abandono_std": 0.09051358018483285,
+        "rendimiento_media": 0.9076961576517852,
+        "rendimiento_std": 0.06887686023092611
+      },
+      "tendencia_abandono": {
+        "pendiente": -0.011851696034339129,
+        "clasificacion": "decreciente",
+        "r_value": -0.7672028142505773,
+        "p_value": 0.23279718574942265,
+        "std_err": 0.00700627822506568,
+        "periodo": [
+          "19-20",
+          "20-21",
+          "21-22",
+          "22-23"
+        ]
+      }
+    },
+    "Ciències socials i jurídiques": {
+      "estadisticas": {
+        "abandono_media": 0.09241675392077763,
+        "abandono_std": 0.06708356015981852,
+        "rendimiento_media": 0.8973144415805686,
+        "rendimiento_std": 0.06511152376338765
+      },
+      "tendencia_abandono": {
+        "pendiente": -4.5665275591579015e-05,
+        "clasificacion": "estable",
+        "r_value": -0.021338190908469456,
+        "p_value": 0.9786618090915306,
+        "std_err": 0.001512915231201152,
+        "periodo": [
+          "19-20",
+          "20-21",
+          "21-22",
+          "22-23"
+        ]
+      }
+    },
+    "Enginyeria i arquitectura": {
+      "estadisticas": {
+        "abandono_media": 0.097297822339536,
+        "abandono_std": 0.0692561791568208,
+        "rendimiento_media": 0.843617757094976,
+        "rendimiento_std": 0.08120441764982778
+      },
+      "tendencia_abandono": {
+        "pendiente": -0.0022462608220179827,
+        "clasificacion": "estable",
+        "r_value": -0.43307628856084257,
+        "p_value": 0.5669237114391574,
+        "std_err": 0.003305808898436131,
+        "periodo": [
+          "19-20",
+          "20-21",
+          "21-22",
+          "22-23"
+        ]
+      }
+    }
+  },
+  "rankings": {
+    "rama_mejor_rendimiento": {
+      "branca": "Ciències de la salut",
+      "taxa_rendiment": 0.9076961576517852
+    },
+    "rama_peor_rendimiento": {
+      "branca": "Enginyeria i arquitectura",
+      "taxa_rendiment": 0.8436177570949762
+    },
+    "rama_mayor_abandono": {
+      "branca": "Arts i humanitats",
+      "abandono": 0.13856621323254148
+    },
+    "rama_menor_abandono": {
+      "branca": "Ciències",
+      "abandono": 0.07155608322047927
+    }
+  }
+}
