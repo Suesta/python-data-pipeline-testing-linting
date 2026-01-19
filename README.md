@@ -1,4 +1,4 @@
-# University Performance & First-Year Dropout Analysis (Python)
+# python-data-pipeline-testing-linting
 
 A lightweight, reproducible Python project that loads two university-level datasets (performance rate and first-year dropout rate), cleans and aggregates them, merges them into a single analytical table, generates trend visualizations, and exports a structured JSON statistical report.
 
@@ -250,3 +250,4 @@ Evidence is captured in:
 ## License
 
 This project is released under the license included in the repository (see `LICENSE`).
+
